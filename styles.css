@@ -3,6 +3,7 @@ body{
 }
 
 li{
+    font-size: large;
     display: inline;
     color: #25283d;
     background-color: #d1bcff;
