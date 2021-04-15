@@ -1,8 +1,18 @@
+body{
+    background-color: #f5cac3;
+}
+
 h1{
 background-color: #f5cac3;
 color: #25283d ;
 }
 
-body{
+h2{
     background-color: #f5cac3;
+    color: #25283d ;
+}
+
+h3{
+    background-color: #f5cac3;
+color: #25283d ;
 }
