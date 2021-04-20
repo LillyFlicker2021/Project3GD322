@@ -3,11 +3,13 @@ body{
 }
 
 li{
+    font-family: 'Courier', Courier, monospace;
     font-size: 30px;
     display: inline;
     color: #25283d;
     background-color: #d1bcff;
     border: 5px solid #ff9dac;
+    box-shadow: 5px 5px #ff9dac;
 	width: 275px;
     border-radius: 10px;
     padding: 5px;
