@@ -16,14 +16,17 @@ li{
     align-self: center;
 }
 
-.gallery{
-display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-gap: 15px;
 
+
+
+.Nav{
+    align-items: center;
 }
 
-.jjba{
-    grid-row-start: 1fr;
+.gallery{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: stretch;
+  justify-items: center;
 }
