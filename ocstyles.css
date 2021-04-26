@@ -17,13 +17,9 @@ li{
 }
 
 .gallery{
-display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-gap: 15px;
-
-}
-
-.jjba{
-    grid-row-start: 1fr;
-}
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+    
+    }
