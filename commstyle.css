@@ -25,7 +25,13 @@ li{
 
 .gallery{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:auto;
+    grid-row-gap: 3px;
+}
+img{
+    width: fit-content;
+    height: fit-content;
+    object-fit: none;
+    object-position: center;
 }
