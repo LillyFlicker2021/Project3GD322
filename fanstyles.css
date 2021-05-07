@@ -25,6 +25,7 @@ li{
 }
 img{
     height:100%;
+    padding:10px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -32,11 +33,18 @@ img{
         height: auto;
         object-fit:fill;
         object-position:bottom;
+        padding:3px;
       }
       .gallery{
           display: grid;
           grid-template-columns: 1fr;
-          grid-row-gap:13px;
+          grid-template-rows: 840px;
+          grid-row-gap: 10px;
 
       }
+      li{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:auto;
+    }
   }
