@@ -17,15 +17,32 @@ li{
 }
 
 .gallery{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
-    grid-row-gap: 13px;
-    grid-column-gap: 13px;
-}
+    display: grid;
+    grid-template-columns: 453.3px 0px 548.6px 490px 487.2px;
+    grid-template-rows: 436.9px 154.5px 440.9px 402.4px 600px;
+    grid-gap: 80px 20px;
+    grid-template-areas:
+      "jffmulti UAUA overdrive rdhff rabbit"
+      "jffmulti UAUA overdrive rdhff rabbit"
+      "infinite clockwork clockwork faraday teamtripls"
+      ". . . . .";
+  }
+  #jffmulti { grid-area: jffmulti; }
+  #UAUA { grid-area: UAUA;
+  height:101%; }
+  #overdrive { grid-area: overdrive; }
+  #rdhff { grid-area: rdhff; }
+  #infinite { grid-area: infinite;
+  height: 108%; }
+  #faraday { grid-area: faraday; 
+  height: 125%;}
+  #clockwork { grid-area: clockwork; }
+  #rabbit { grid-area: rabbit; }
+  #teamtripls { grid-area: teamtripls; }
+
 img{
-    height:100%;
-    padding:10px;
+height:100%;
+padding:10px;
 }
 
 @media only screen and (max-width: 767px) {

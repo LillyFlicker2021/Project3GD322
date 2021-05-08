@@ -22,22 +22,36 @@ li{
 }
 
 .gallery{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
-    grid-row-gap: 13px;
-    grid-column-gap: 13px;
+    display: grid;
+  grid-template-columns: 300px 134.7px px 330px 330px 300px;
+  grid-template-rows: 392.7px 0.1px 488.3px 376.4px;
+  gap: 20px 10px;
+  grid-template-areas:
+    "jjba bustcomm bustcomm sldnr inkling ."
+    "kiri kiri recentoc sldnr inkling ."
+    "kiri kiri recentoc greenoc gee ."
+    ". . . . . .";
 }
 img{
     height:100%;
     padding:10px;
+
 }
+
+#jjba { grid-area: jjba; 
+}
+#bustcomm { grid-area: bustcomm; }
+#sldnr { grid-area: sldnr; }
+#inkling { grid-area: inkling; }
+#recentoc { grid-area: recentoc; }
+#kiri { grid-area: kiri; }
+#greenoc { grid-area: greenoc; }
+#gee { grid-area: gee; }
 
 @media only screen and (max-width: 767px) {
     img {
-        height: auto;
+        height: 100%;
         object-fit:fill;
-        object-position:bottom;
         padding:3px;
       }
       .gallery{

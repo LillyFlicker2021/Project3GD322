@@ -16,13 +16,28 @@ li{
     align-self: center;
 }
 
-.gallery{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
-    grid-row-gap: 13px;
-    grid-column-gap: 13px;
-}
+.gallery {
+    display: grid;
+    grid-template-columns: 500px 40px 550px 300px 250px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    gap: 10px 10px;
+    grid-template-areas:
+      "personahp rkstrJ rkstrJ soc soc mimes ."
+      "personahp rkstrJ rkstrJ soc soc mimes ."
+      "circa resad resad jace jace chfllbdy ."
+      "circa resad resad jace jace chfllbdy ."
+      ". . . . . . .";
+  }
+  #personahp { grid-area: personahp; height: 105%
+  object-position}
+  #rkstrJ { grid-area: rkstrJ; height: 96%; }
+  #soc { grid-area: soc; height: 99%; }
+  #mimes { grid-area: mimes; }
+  #circa { grid-area: circa; height: 101%;}
+  #resad { grid-area: resad; height: 113%; }
+  #jace { grid-area: jace; height: 113%;}
+  #chfllbdy { grid-area: chfllbdy; height: 120%;}
+
 img{
     height:100%;
     padding:10px;
