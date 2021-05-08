@@ -23,9 +23,9 @@ li{
 
 .gallery{
     display: grid;
-  grid-template-columns: 300px 134.7px px 330px 330px 300px;
-  grid-template-rows: 392.7px 0.1px 488.3px 376.4px;
-  gap: 20px 10px;
+  grid-template-columns: 400px 300px 330px 300px px 340px;
+  grid-template-rows: 450px 100px 500px 500px 300px;
+  gap: 20px 20px;
   grid-template-areas:
     "jjba bustcomm bustcomm sldnr inkling ."
     "kiri kiri recentoc sldnr inkling ."
@@ -38,15 +38,15 @@ img{
 
 }
 
-#jjba { grid-area: jjba; 
+#jjba { grid-area: jjba; height: 130%;
 }
-#bustcomm { grid-area: bustcomm; }
-#sldnr { grid-area: sldnr; }
+#bustcomm { grid-area: bustcomm; height: 101% }
+#sldnr { grid-area: sldnr; height: 100%;}
 #inkling { grid-area: inkling; }
-#recentoc { grid-area: recentoc; }
-#kiri { grid-area: kiri; }
-#greenoc { grid-area: greenoc; }
-#gee { grid-area: gee; }
+#recentoc { grid-area: recentoc; height: 104%}
+#kiri { grid-area: kiri; height: 102%; }
+#greenoc { grid-area: greenoc; height: 124% }
+#gee { grid-area: gee; height: 110% }
 
 @media only screen and (max-width: 767px) {
     img {
