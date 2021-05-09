@@ -2,19 +2,33 @@ body{
     background-color: #f5cac3;
 }
 
-li{
-    font-family: 'Courier' Courier, monospace;
-    font-size: 30px;
-    display: inline;
-    color: #25283d;
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin:0;
+    padding:5;
     background-color: #d1bcff;
     border: 5px solid #ff9dac;
     box-shadow: 5px 5px #ff9dac;
-	width: 275px;
+    width: 275px;
     border-radius: 10px;
-    padding: 5px;
-    align-self: center;
+    list-style-type:none;
+    display: inline;
 }
+
+li{
+    float:center;
+    display:inline;
+    text-align:center;
+  }
+  
+  li a{
+    display:inline;
+    color: #25283d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 .gallery {
     display: grid;
@@ -48,18 +62,33 @@ img{
         height: auto;
         object-fit:fill;
         object-position:bottom;
-        padding:3px;
+        padding:10px;
       }
       .gallery{
-          display: grid;
+          display: block;
           grid-template-columns: 1fr;
-          grid-template-rows: 800px;
+          grid-template-rows: 300px;
           grid-row-gap: 10px;
 
       }
-      li{
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows:auto;
-    }
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #d1bcff;
+  border:none;
+}
+
+li a {
+  display: block;
+  color: #25283d;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #d1bcff
+}
+li a.active{
+  background-color: #f497da;
+  color: white;
+}
   }
